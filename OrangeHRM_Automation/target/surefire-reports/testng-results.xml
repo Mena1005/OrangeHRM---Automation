@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-05T15:54:44 IST" name="Surefire suite" finished-at="2026-01-05T15:56:08 IST" duration-ms="83642">
+    <groups>
+    </groups>
+    <test started-at="2026-01-05T15:54:44 IST" name="Surefire test" finished-at="2026-01-05T15:56:08 IST" duration-ms="83642">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@6973bf95]" started-at="2026-01-05T15:54:44 IST" name="setUp" finished-at="2026-01-05T15:54:52 IST" duration-ms="7935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionality()[pri:0, instance:tests.LoginTest@6973bf95]" started-at="2026-01-05T15:54:52 IST" name="verifyLoginFunctionality" finished-at="2026-01-05T15:55:02 IST" duration-ms="10192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@6973bf95]" started-at="2026-01-05T15:55:02 IST" name="tearDown" finished-at="2026-01-05T15:55:02 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ProfileTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProfileTest@48aaecc3]" started-at="2026-01-05T15:55:02 IST" name="setUp" finished-at="2026-01-05T15:55:08 IST" duration-ms="5619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMyInfoPage()[pri:0, instance:tests.ProfileTest@48aaecc3]" started-at="2026-01-05T15:55:08 IST" name="verifyMyInfoPage" finished-at="2026-01-05T15:56:07 IST" duration-ms="59488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyInfoPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProfileTest@48aaecc3]" started-at="2026-01-05T15:56:07 IST" name="tearDown" finished-at="2026-01-05T15:56:08 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProfileTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
